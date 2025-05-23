@@ -1,4 +1,4 @@
-const $ = new Env('WeLinkPunch');
+$ = new Env('WeLinkPunch');
 if ($request.headers.cookie) {
     console.log($request.headers.cookie);
 }
