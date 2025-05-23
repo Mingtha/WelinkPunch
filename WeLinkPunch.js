@@ -1,7 +1,4 @@
-$ = new Env('WeLinkPunch');
-if ($request.headers.cookie) {
-    console.log($request.headers.cookie);
-}
+const $ = new Env('WeLinkPunch');
 
 function Env(name, opts) {
     class Http {
